@@ -246,7 +246,7 @@ int main()
 	list obj;
 	int ch;
 	int index=1;
-	while(index)
+	do
 	{
 		cout<<"\n**** MENU ****";
 		cout<<"\n 1) Create \n 2) Insert \n 3)delete \n 4)Display \n 5)sort \n 6)search \n 7)Reverse \n 8:exit";
@@ -298,6 +298,6 @@ int main()
 				cout<<"Invalid Option"<<endl;
 				
 		}
-	}
+	}while(ch!=8);
 	return 0;
 }
