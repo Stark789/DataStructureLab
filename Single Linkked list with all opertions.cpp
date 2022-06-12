@@ -182,7 +182,7 @@ void list::sort()
 	 for(int i=1;i<=count;i++)
 	 {
 	 	tnode=first;
-	 	for(int j=0;j<=count-i-1;i++)
+	 	for(int j=0;j<=count-i-1;j++)
 	 	{
 	 		if(tnode->info>tnode->next->info)
 	 		{
@@ -291,7 +291,7 @@ int main()
 			}
 			case 8:
 			{
-				obj.reverse();
+				cout<<"EXIT";
 				break;
 			}
 			default:
