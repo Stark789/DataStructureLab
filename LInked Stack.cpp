@@ -22,6 +22,7 @@ void pop()
 	else
 	{
 		cout<<"The popped element is"<<top->data<<endl;
+                 top = top->next;
 	}
 }
 void display() {
