@@ -101,8 +101,8 @@ void preorder(node *t) {
 	if(t == NULL)
 	return;
 	cout<< t->data << " ";	
-	postorder(t->left);
-	postorder(t->right);	
+	preorder(t->left);
+	preorder(t->right);	
     }
 node *find(node *t, int x) {
 	if(t == NULL)
